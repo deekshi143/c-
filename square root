@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+  double a = 45.98;
+  printf("The square root of %lf: %lf\n",a, sqrt(a));  
+  
+  return 0;
+}
+The square root of 45.980000: 6.780855
