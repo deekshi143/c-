@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=4;//defintion
+    int b;//declare
+    b=4;//intalization
+     int sum=a+b;
+    printf("sum=%d",sum);
+    return 0;
+}
+output=sum=8
