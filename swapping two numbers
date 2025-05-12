@@ -4,7 +4,7 @@ int main()
 {
     int a=4;//defintion
     int b;//declare
-    b=4;//intalization
+    b=5;//intalization
      int temp=a;
      a=b;
      b=temp;
