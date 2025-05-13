@@ -1,0 +1,33 @@
+
+#include<stdio.h>
+Int main()
+{
+       int chem,phy,eng,maths,bio;
+       float total,average,percentage;
+
+		//taking input
+		printf("Enter the marks of five subjects: \n");
+		scanf("%d%d%d%d%d", &chem, &phy, &eng, &maths, &bio);
+
+		//sum total
+		total= chem + phy + eng + maths + bio;
+		average = total / 5;
+		percentage = (total / 500) * 100;
+
+		//printing the values
+		printf("Total marks = %.2f \n", total);
+		printf("Average marks = %.2f \n", average);
+		printf("percentage = %.2f \n",percentage);
+		return 0;
+}
+Output:
+
+Enter the marks of five subjects:
+98
+88
+76
+90
+73
+Total marks = 425
+Average marks = 85
+Percentage = 85
