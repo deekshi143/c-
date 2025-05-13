@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+int main() 
+{
+    int a;
+  
+    scanf("%d", &a);
+
+    
+    if(a% 2 ) {
+    
+        printf("GIVEN NUM IS ODD"); 
+        
+    }
+    else{
+        printf("GIVEN NUM IS EVEN");
+    }
+    return 0;
+}
+given number is odd
+
+if (a%2) is valid not only in if (a%==2) is valid
