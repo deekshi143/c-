@@ -1,0 +1,50 @@
+BITWISE OPERATOR
+RESULT CAN BE ANY NUM
+CHANGE TO BINARY VALUE
+  8 4 2 1
+0-0 0 0 0
+1-0 0 0 1
+2-0 0 1 0
+3-0 0 1 1
+4-0 1 0 0
+5-0 1 0 1
+6-0 1 1 0
+7-0 1 1 1
+8-1 0 0 0
+9-1 0 0 1
+10-1 0 1 0
+ C, the expression 10 << 2 is a bitwise left shift operation.
+
+Breakdown:
+10 in binary: 00001010
+
+<< 2 means: shift bits 2 positions to the left
+
+So:
+
+bash
+Copy
+Edit
+00001010  << 2  →  00101000
+Which is:
+
+00101000 in binary = 40 in decimal
+
+✅ Final Result:
+c
+Copy
+Edit
+10 << 2 = 40
+Let me know if you'd like to see the bitwise steps or how right shift (>>) works too.
+ -8 4 2 1
+0-0 0 0 0
+1-0 0 0 1
+2-0 0 1 0
+3-0 0 1 1
+4-0 1 0 0
+5-0 1 0 1
+6-0 1 1 0
+7-0 1 1 1
+-8-1 0 0 0
+-7-1 0 0 1
+-6-1 0 1 0
