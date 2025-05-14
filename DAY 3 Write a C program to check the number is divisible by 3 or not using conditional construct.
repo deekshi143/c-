@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+
+int main() {
+
+    int num;
+    scanf( "%d", &num);
+    if( num %3== 0){
+        printf("The number is divisible by 3\n");
+    }else{
+        printf("The number is not divisible by 3 and gives a remainder %d\n", num% 3);
+    }
+    return 0;
+}
+Input (stdin)
+
+363
+Your Output (stdout)
+
+The number is divisible by 3
+Expected Output
+
+The number is divisible by 3
+Input (stdin)
+
+31
+Your Output (stdout)
+
+The number is not divisible by 3 and gives a remainder 1
+Expected Output
+
+The number is not divisible by 3 and gives a remainder 1
