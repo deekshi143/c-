@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+int main() {
+
+    int num;
+    scanf( "%d", &num);
+    if( num %3== 0&&num%5==0){
+        printf("HiHello\n");
+    }else if( num %3== 0) {
+        printf("Hi\n");
+    }else if( num %5== 0) {
+        printf("Hello\n");
+    }    
+    return 0;
+}
+Input (stdin)
+
+1500
+Your Output (stdout)
+
+HiHello
+Expected Output
+
+HiHello
