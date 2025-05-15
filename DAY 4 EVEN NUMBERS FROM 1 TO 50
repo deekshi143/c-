@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    
+  int a=2;
+     
+       while(a<=50)
+    {
+        if(a%2==0)
+        {
+         printf("%i",a);
+        }
+        a++; 
+        }
+    
+
+    return 0;
+}
+ OUTPUT:2468101214161820222426283032343638404244464850
